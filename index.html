@@ -11,7 +11,60 @@
 </head>
 <body>
 
-    
+    <header class="container-fluid fixed-top">
+        <div class="row bc-header-element py-3">
+            <div class="col-2 bc-header-element">
+                <a class="d-none d-lg-block py-1" href=""><img class="img-fluid" src="./img/logo.svg" alt=""></a>
+                <a class="d-block d-lg-none m-bottom-2" href=""><img class="bc-img2" src="./img/mobile-logo.png" alt=""></a>
+            </div>
+            <div class="col-8">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+                </form>
+            </div>
+            <div class="col-2 p-2">
+                <div class="row">
+                    <div class="col-3"><i class="fa-solid fa-list d-none d-lg-block"></i></div>
+                    <div class="col-3"><i class="fa-regular fa-circle-question d-none d-lg-block"></i></div>
+                    <div class="col-3"><i class="fa-solid fa-ellipsis-vertical d-none d-lg-block"></i></div>
+                    <div class="col-3"><i class="fa-regular fa-bell"></i></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="d-flex">
+
+        <!-- SIDEBAR -->
+        <div class="bc-sidebar d-flex flex-column justify-content-between fixed-left text-center">
+            
+            <div class="navi">
+                <i class="fa-solid fa-house py-3"></i> <a class="d-none d-lg-inline text-decoration-none bc-colorwhite" href="">HOME</a>
+                <br><i class="fa-solid fa-chart-simple py-3"></i> <a class="d-none d-lg-inline text-decoration-none bc-colorwhite" href="">STATS</a>
+                <br><i class="fa-solid fa-signal py-3"></i> <a class="d-none d-lg-inline text-decoration-none bc-colorwhite" href="">SIGNALS</a>
+            </div>
+
+            <div class="admin align-items-end text-center p-4">
+                <i class="fa-solid fa-gear"></i> <a class="d-none d-lg-inline text-decoration-none bc-colorwhite" href="">Admin</a>
+            
+            </div>
+        </div>
+
+        <!-- MAIN -->
+        <div class="bc-main">
+
+            <section class="container-fluid">
+                <div class="row">
+                    <div class="col-5">a</div>
+                    <div class="col-4">b</div>
+                    <div class="col-3">c</div>
+                </div>
+            </section>
+
+        </div>
+
+    </main>
+
     
 </body>
 </html>
