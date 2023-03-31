@@ -38,7 +38,6 @@ main{
 
 .bc-sidebar{
     width: 150px;
-    min-height: 800px;
     background-color: #051e34;
     color: white;
     background-image: url(./img/sidebar-bg.png);
@@ -46,7 +45,6 @@ main{
 
 .bc-main{
     width: calc(100% - 150px);
-    min-height: 800px;
     overflow-y: auto;
 }
 
