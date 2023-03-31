@@ -8,6 +8,10 @@ body{
     color: white;
 }
 
+.bc-colorGrey{
+    color: grey;
+}
+
 .bc-colorSky{
     background-color: #1b72e8;
 }
@@ -54,6 +58,15 @@ main{
     width: calc(100% - 150px);
     min-height: 800px;
     overflow-y: auto;
+}
+
+.bc-width{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.bc-hover:hover{
+    background-color: grey;
 }
 
 @media screen and (max-width: 992px) {

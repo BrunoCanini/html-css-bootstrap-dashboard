@@ -40,17 +40,25 @@
     <main class="d-flex">
 
         <!-- SIDEBAR -->
-        <div class="bc-sidebar d-flex flex-column justify-content-between fixed-left text-center">
+        <div class="bc-sidebar d-flex flex-column justify-content-between fixed-left py-4">
             
             <div class="navi">
-                <i class="fa-solid fa-house py-3"></i> <a class="d-none d-lg-inline text-decoration-none bc-colorwhite" href="">HOME</a>
-                <br><i class="fa-solid fa-chart-simple py-3"></i> <a class="d-none d-lg-inline text-decoration-none bc-colorwhite" href="">STATS</a>
-                <br><i class="fa-solid fa-signal py-3"></i> <a class="d-none d-lg-inline text-decoration-none bc-colorwhite" href="">SIGNALS</a>
+                <div class="d-flex justify-content-center py-2 bc-width bc-hover">
+                    <i class="fa-solid fa-house"></i> <a class="d-none d-lg-inline text-decoration-none bc-colorwhite px-2" href="">HOME</a>
+                </div>
+                <div class="d-flex justify-content-center py-2 bc-width bc-hover">
+                    <i class="fa-solid fa-chart-simple"></i> <a class="d-none d-lg-inline text-decoration-none bc-colorwhite px-2" href="">STATS</a>
+                </div>
+                <div class="d-flex justify-content-center py-2 bc-width bc-hover">
+                    <i class="fa-solid fa-signal"></i> <a class="d-none d-lg-inline text-decoration-none bc-colorwhite px-2" href="">SIGNALS</a>
+                </div>
+                
             </div>
 
-            <div class="admin align-items-end text-center p-4">
-                <i class="fa-solid fa-gear"></i> <a class="d-none d-lg-inline text-decoration-none bc-colorwhite" href="">Admin</a>
-            
+            <div class="admin align-items-end">
+                <div class="d-flex justify-content-center">
+                    <i class="fa-solid fa-gear"></i> <a class="d-none d-lg-inline text-decoration-none bc-colorwhite px-2" href="">Admin</a>
+                </div>
             </div>
         </div>
 
@@ -156,7 +164,7 @@
                                         <td class="d-none d-md-table-cell"> <span class="fw-bold">22 Feb 2021</span></td>
                                         <td class="fw-bold d-none d-md-table-cell"><span>20%</span></td>
                                         <td><span class="badge bc-colorGreenBadge">Done</span></td>
-                                        <td><button class="btn btn-outline border"><i class="fa-sharp fa-solid fa-pen"></i></button> <button class="btn btn-outline border"><i class="fa-solid fa-trash"></i></button></td>
+                                        <td><button class="btn btn-outline border"><i class="fa-sharp fa-solid fa-pen bc-colorGrey"></i></button> <button class="btn btn-outline border"><i class="fa-solid fa-trash bc-colorGrey"></i></button></td>
                                       </tr>
                                       <tr>
                                     </tbody>
@@ -174,7 +182,7 @@
                                           <span class="fw-bold">Come aggiungere un nuovo studente?</span>
                                         </button>
                                       </h2>
-                                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                      <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                           <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                                         </div>
