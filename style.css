@@ -47,6 +47,7 @@ main{
     min-height: 800px;
     background-color: #051e34;
     color: white;
+    background-image: url(./img/sidebar-bg.png);
 }
 
 .bc-main{
