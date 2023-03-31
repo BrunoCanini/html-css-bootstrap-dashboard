@@ -83,3 +83,19 @@ main{
     color: black;
     font-weight: 600;
 }
+
+.bc-colorIcons{
+    background-color: #f26551;
+}
+
+.bc-colorGreenBadge{
+    background-color: #198754;
+}
+
+.bc-colorYellowBadge{
+    background-color: #ffc107;
+}
+
+.bc-colorRedBadge{
+    background-color: #dc3545;
+}

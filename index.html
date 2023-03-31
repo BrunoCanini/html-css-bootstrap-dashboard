@@ -21,9 +21,10 @@
                 <a class="d-block d-lg-none m-bottom-2" href=""><img class="bc-img2" src="./img/mobile-logo.png" alt=""></a>
             </div>
             <div class="col">
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
-                </form>
+                <div class="input-group">
+                    <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <input type="text" class="form-control" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
             </div>
             <div class="col-auto p-2">
                 <div class="row">
@@ -90,11 +91,76 @@
                                 <div class="card-header">
                                   <h4 class="bc-fontsize3">Prossime classi</h4>
                                 </div>
-                                <ul class="list-group list-group-flush">
-                                  <li class="list-group-item"><span class="bc-fontsize3">Nome</span></li>
-                                  <li class="list-group-item">A second item</li>
-                                  <li class="list-group-item">A third item</li>
-                                </ul>
+                                <table class="table text-center">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">Name</th>
+                                        <th class="d-none d-md-table-cell" scope="col">Data Inizio</th>
+                                        <th class="d-none d-md-table-cell" scope="col">ROI</th>
+                                        <th scope="col">Stato</th>
+                                        <th scope="col">Azioni</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <th scope="row"> <i class="fa-solid fa-code rounded-circle bc-colorwhite bc-colorIcons p-2"></i> Classe 75</th>
+                                        <td class="d-none d-md-table-cell"> <span class="fw-bold">15 Feb 2021</span></td>
+                                        <td class="fw-bold d-none d-md-table-cell"><span>20%</span></td>
+                                        <td><span class="badge bc-colorGreenBadge">Done</span></td>
+                                        <td><button class="btn btn-outline border"><i class="fa-sharp fa-solid fa-pen"></i></button> <button class="btn btn-outline border"><i class="fa-solid fa-trash"></i></button></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row"> <i class="fa-solid fa-code rounded-circle bc-colorwhite bc-colorIcons p-2"></i> Classe 76</th>
+                                        <td class="d-none d-md-table-cell"> <span class="fw-bold">16 Feb 2021</span></td>
+                                        <td class="fw-bold d-none d-md-table-cell"><span>20%</span></td>
+                                        <td><span class="badge bc-colorGreenBadge">Done</span></td>
+                                        <td><button class="btn btn-outline border"><i class="fa-sharp fa-solid fa-pen"></i></button> <button class="btn btn-outline border"><i class="fa-solid fa-trash"></i></button></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row"> <i class="fa-solid fa-code rounded-circle bc-colorwhite bc-colorIcons p-2"></i> Classe 77</th>
+                                        <td class="d-none d-md-table-cell"> <span class="fw-bold">17 Feb 2021</span></td>
+                                        <td class="fw-bold d-none d-md-table-cell"><span>20%</span></td>
+                                        <td><span class="badge bc-colorYellowBadge">Process</span></td>
+                                        <td><button class="btn btn-outline border"><i class="fa-sharp fa-solid fa-pen"></i></button> <button class="btn btn-outline border"><i class="fa-solid fa-trash"></i></button></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row"> <i class="fa-solid fa-code rounded-circle bc-colorwhite bc-colorIcons p-2"></i> Classe 78</th>
+                                        <td class="d-none d-md-table-cell"> <span class="fw-bold">18 Feb 2021</span></td>
+                                        <td class="fw-bold d-none d-md-table-cell"><span>20%</span></td>
+                                        <td><span class="badge bc-colorGreenBadge">Done</span></td>
+                                        <td><button class="btn btn-outline border"><i class="fa-sharp fa-solid fa-pen"></i></button> <button class="btn btn-outline border"><i class="fa-solid fa-trash"></i></button></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row"> <i class="fa-solid fa-code rounded-circle bc-colorwhite bc-colorIcons p-2"></i> Classe 79</th>
+                                        <td class="d-none d-md-table-cell" > <span class="fw-bold">19 Feb 2021</span></td>
+                                        <td class="fw-bold d-none d-md-table-cell"><span>20%</span></td>
+                                        <td><span class="badge bc-colorRedBadge">Failed</span></td>
+                                        <td><button class="btn btn-outline border"><i class="fa-sharp fa-solid fa-pen"></i></button> <button class="btn btn-outline border"><i class="fa-solid fa-trash"></i></button></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row"> <i class="fa-solid fa-code rounded-circle bc-colorwhite bc-colorIcons p-2"></i> Classe 80</th>
+                                        <td class="d-none d-md-table-cell"> <span class="fw-bold">20 Feb 2021</span></td>
+                                        <td class="fw-bold d-none d-md-table-cell"><span>20%</span></td>
+                                        <td><span class="badge bc-colorGreenBadge">Done</span></td>
+                                        <td><button class="btn btn-outline border"><i class="fa-sharp fa-solid fa-pen"></i></button> <button class="btn btn-outline border"><i class="fa-solid fa-trash"></i></button></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row"> <i class="fa-solid fa-code rounded-circle bc-colorwhite bc-colorIcons p-2"></i> Classe 81</th>
+                                        <td class="d-none d-md-table-cell"> <span class="fw-bold">21 Feb 2021</span></td>
+                                        <td class="fw-bold d-none d-md-table-cell"><span>20%</span></td>
+                                        <td><span class="badge bc-colorRedBadge">Failed</span></td>
+                                        <td><button class="btn btn-outline border"><i class="fa-sharp fa-solid fa-pen"></i></button> <button class="btn btn-outline border"><i class="fa-solid fa-trash"></i></button></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row"> <i class="fa-solid fa-code rounded-circle bc-colorwhite bc-colorIcons p-2"></i> Classe 82</th>
+                                        <td class="d-none d-md-table-cell"> <span class="fw-bold">22 Feb 2021</span></td>
+                                        <td class="fw-bold d-none d-md-table-cell"><span>20%</span></td>
+                                        <td><span class="badge bc-colorGreenBadge">Done</span></td>
+                                        <td><button class="btn btn-outline border"><i class="fa-sharp fa-solid fa-pen"></i></button> <button class="btn btn-outline border"><i class="fa-solid fa-trash"></i></button></td>
+                                      </tr>
+                                      <tr>
+                                    </tbody>
+                                  </table>
                             </div>
 
                             <div class="card my-3">
@@ -102,9 +168,9 @@
                                   <h4 class="bc-fontsize3">F.A.Q.</h4>
                                 </div>
                                 <ul class="list-group list-group-flush">
-                                  <li class="list-group-item"><span class="bc-fontsize3">Nome</span></li>
-                                  <li class="list-group-item">A second item</li>
-                                  <li class="list-group-item">A third item</li>
+                                  <li class="list-group-item">Come aggiungere un nuovo studente?</li>
+                                  <li class="list-group-item">Come posso accedere alle informazioni del mio account</li>
+                                  <li class="list-group-item">Posso usare questa dashbord da mobile</li>
                                 </ul>
                             </div>
 
@@ -118,27 +184,35 @@
                             <div class="card-header">
                               <h4 class="bc-fontsize3">Todo</h4>
                             </div>
-                            <ul class="list-group list-group-flush">
-                              <li class="list-group-item"><span class="bc-fontsize3">Nome</span></li>
-                              <li class="list-group-item">A second item</li>
-                              <li class="list-group-item">A third item</li>
-                            </ul>
+                            <ul class="list-group p-3">
+                                <li class="list-group-item">
+                                  <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                  <label class="form-check-label fw-bold" for="firstCheckbox">Kickoff nuove classi</label>
+                                </li>
+                                <li class="list-group-item">
+                                  <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                  <label class="form-check-label fw-bold" for="secondCheckbox">Lezioni su Boostrap 5 in classe #75</label>
+                                </li>
+                                <li class="list-group-item">
+                                  <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                                  <label class="form-check-label fw-bold" for="thirdCheckbox">Controllare username github studenti</label>
+                                </li>
+                              </ul>
                         </div>
 
                         <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
+                            <img src="./img/stats.jpeg" class="card-img-top">
                             <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <h5 class="card-title fw-bold">Utenti attivi</h5>
+                              <p class="card-text">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
                             </div>
                             <ul class="list-group list-group-flush">
-                              <li class="list-group-item">An item</li>
-                              <li class="list-group-item">A second item</li>
-                              <li class="list-group-item">A third item</li>
+                              <li class="list-group-item">Gennaio: 1200</li>
+                              <li class="list-group-item">Febbraio: 800</li>
+                              <li class="list-group-item">Marzo: 1500</li>
                             </ul>
                             <div class="card-body">
-                              <a href="#" class="card-link">Card link</a>
-                              <a href="#" class="card-link">Another link</a>
+                              <a href="#" class="card-link">Visualizza report approfondito</a>
                             </div>
                           </div>
 
