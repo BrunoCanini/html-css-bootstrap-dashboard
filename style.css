@@ -31,7 +31,7 @@ header{
     height: 50px;
 }
 
-/* !!!!!!!!! sistemare header !!!!!!!!!!*/
+/* !!!!!!!!! sistemare campanella !!!!!!!!!!*/
 
 /* ##### MAIN ##### */
 
@@ -52,7 +52,6 @@ main{
 .bc-main{
     width: calc(100% - 150px);
     min-height: 800px;
-    background-color: coral;
     overflow-y: auto;
 }
 
