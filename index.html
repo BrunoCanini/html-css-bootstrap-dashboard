@@ -82,7 +82,56 @@
                     </div>
                     <div class="col-12 col-md-4 col-lg-3 p-3">
                         <span class="px-2">Nuovo Studente</span>
-                        <button class="btn btn-outline border bc-colorwhite">+</button>
+                        <button class="btn btn-outline border bc-colorwhite btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">+</button>
+                        <!-- OFFCANVAS -->
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExample">
+                            <div class="offcanvas-header">
+                              <h5 class="offcanvas-title fw-bold" id="offcanvasExample">Inserisci un nuovo studente</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <!--form -->
+                            <form class="p-2" action="">
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label fw-bold">Nome</label>
+                                    <input type="text" class="form-control">
+
+                                    <label for="exampleInputPassword1" class="form-label fw-bold">Cognome</label>
+                                    <input type="text" class="form-control">
+
+                                    <label for="exampleInputEmail1" class="form-label fw-bold">Email</label>
+                                    <input type="email" class="form-control">
+
+                                    <label for="exampleInputPassword1" class="form-label fw-bold">Password</label>
+                                    <input type="password" class="form-control">
+
+                                    <label for="exampleInputPassword1" class="form-label fw-bold">Indirizzo</label>
+                                    <input type="text" class="form-control">
+
+                                    <label for="exampleInputPassword1" class="form-label fw-bold">Città</label>
+                                    <input type="text" class="form-control">
+
+                                    <label for="disabledSelect" class="form-label fw-bold">Stato</label>
+                                    <select id="disabledSelect" class="form-select">
+                                        <option value="opt1">Italia</option>
+                                        <option value="opt2">Inghilterra</option>
+                                        <option value="opt3">Portogallo</option>
+                                    </select>
+
+                                    <label for="exampleInputPassword1" class="form-label fw-bold">CAP</label>
+                                    <input type="number" class="form-control">
+
+                                    <label for="exampleInputPassword1" class="form-label fw-bold">Foto</label>
+                                    <input type="file" class="form-control">
+
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label fw-bold" for="exampleCheck1">Seleziona di proseguire</label>
+
+                                </div>
+                                <button type="submit" class="btn btn-primary">Salva</button>
+                                <button type="submit" class="btn bc-colorYellowBadge fw-bold">Svuota</button>
+                            </form>
+
+                        </div>
                     </div>
                 </div>
             </section>
