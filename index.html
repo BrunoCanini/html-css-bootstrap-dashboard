@@ -27,12 +27,18 @@
                     <input type="text" class="form-control" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
                   </div>
             </div>
-            <div class="col-auto p-2">
+            <div class="col-auto">
                 <div class="row align-items-center">
                     <div class="col-3"><i class="fa-solid fa-list d-none d-lg-block"></i></div>
                     <div class="col-3"><i class="fa-regular fa-circle-question d-none d-lg-block"></i></div>
                     <div class="col-3"><i class="fa-solid fa-ellipsis-vertical d-none d-lg-block"></i></div>
-                    <div class="col-3"><i class="fa-regular fa-bell"></i></div>
+                    <div class="col-3 dropdown"><button class="btn btn-outline dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-regular fa-bell"></i></button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item fw-bold" href="">Profilo</a></li>
+                            <li><a class="dropdown-item fw-bold" href="">Fatturazione</a></li>
+                            <li><a class="dropdown-item fw-bold" href="">Logout</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
