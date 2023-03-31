@@ -12,6 +12,10 @@ body{
     color: grey;
 }
 
+.bc-colorGold{
+    color: #ffc107;
+}
+
 .bc-colorSky{
     background-color: #1b72e8;
 }
